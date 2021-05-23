@@ -750,14 +750,11 @@ section .container {
   transform: translateZ(-1px);
 }
 
-.services .icon-box h4 {
+.services .icon-box h4{
+  color: rgba(255, 192, 203, 0);
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
-}
-
-.services .icon-box h4 a {
-  color: #fff;
 }
 
 .services .icon-box p {
@@ -767,17 +764,44 @@ section .container {
   margin-bottom: 0;
 }
 
-.services .icon-box1:hover {
-  transition: 2s;
-  background: url("../img/interests/sieuxe.jpg") no-repeat;
+.services .icon-box1 {
+  background: url("../img/certificate/code1.jpg") no-repeat;
   background-size:cover;
+  background-position: center;
   border-color: #18d26e;
 }
 
-.services .icon-box2:hover {
-  transition: 3s;
-  background: #18d26e;
+.services .icon-box2 {
+  background: url("../img/certificate/code2.jpg") no-repeat;
+  background-size:cover;
+  background-position: center;
   border-color: #18d26e;
+}
+
+.services .icon-box3 {
+  background: url("../img/certificate/code3.jpg") no-repeat;
+  background-size:cover;
+  background-position: center;
+  border-color: #18d26e;
+}
+
+.services .icon-box4 {
+  background: url("../img/certificate/code4.jpg") no-repeat;
+  background-size:cover;
+  background-position: center;
+  border-color: #18d26e;
+}
+
+.services .icon-box5 {
+  background: url("../img/certificate/hoc-cach-hoc.jpg") no-repeat;
+  background-size:cover;
+  background-position: center;
+  border-color: #18d26e;
+}
+
+.services .icon-box:hover {
+  background:rgba(110, 107, 109, 0.692);
+  transition: 1.5s;
 }
 
 .services .icon-box:hover .icon {
@@ -792,9 +816,9 @@ section .container {
   background: #35e888;
 }
 
-.services .icon-box:hover h4 a, .services .icon-box:hover p {
+.services .icon-box:hover h4, .services .icon-box:hover p {
   transition: 1.5s;
-  color: rgb(255, 1, 1);
+  color: rgb(255, 115, 1);
 }
 
 /*--------------------------------------------------------------
